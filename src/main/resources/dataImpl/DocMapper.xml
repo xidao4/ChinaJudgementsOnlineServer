@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.chinalawtranslate.data.DocMapper">
+
+    <select id="getByTitle" resultMap="Doc">
+        select * from Doc where title = #{title}
+    </select>
+
+    <resultMap id="Doc" type="com.example.chinalawtranslate.po.Doc">
+    </resultMap>
+</mapper>
