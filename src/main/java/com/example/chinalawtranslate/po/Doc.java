@@ -5,11 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Doc {
+    /**
+     * 案件id
+     */
+    private Integer id;
     /**
      * 案件标题
      */
@@ -34,4 +40,8 @@ public class Doc {
      * 状态
      */
     private String status;
+    /**
+     * 时间
+     */
+    private Date time;
 }

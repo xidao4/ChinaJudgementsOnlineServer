@@ -50,13 +50,6 @@
             <version>2.1.0</version>
         </dependency>
 
-        <!--mybatis-plus 持久层-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.0.5</version>
-        </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
